@@ -3575,3 +3575,30 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+/* Custom styles for Síntesis 360 */
+:root {
+  --background-color: #ffffff;
+  --default-color: #2f3a45;
+  --heading-color: #0b1f3a;
+  --accent-color: #38d9c8;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+.dark-background {
+  --background-color: #0b1f3a;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #12345a;
+  --contrast-color: #ffffff;
+}
+.section-kicker{display:inline-block;font-size:.85rem;background:#e9f8f6;color:#1f4e79;padding:.25rem .65rem;border-radius:999px;margin-bottom:.75rem}
+.source-pill,.status-badge{display:inline-block;background:rgba(56,217,200,.15);color:#38d9c8;padding:.3rem .6rem;border-radius:999px;font-size:.8rem}
+.radar-dashboard .radar-panel{background:#102a4a;border:1px solid rgba(56,217,200,.3);padding:1rem;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.metric-card{background:#173a64;color:#fff;padding:.5rem .75rem;border-radius:10px;text-align:center;font-size:.9rem}
+.radar-circle{height:160px;border-radius:50%;border:2px solid rgba(56,217,200,.7);position:relative;background:radial-gradient(circle,#163d66 0,#0f2d4f 60%,#0b1f3a 100%)}
+.pulse-dot{position:absolute;top:50%;left:50%;width:10px;height:10px;background:#38d9c8;border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 0 rgba(56,217,200,.7);animation:pulse 2s infinite}
+@keyframes pulse{to{box-shadow:0 0 0 18px rgba(56,217,200,0)}}
+.topic-chip{background:#1f4e79;color:#fff;padding:.2rem .5rem;border-radius:999px;font-size:.78rem}
+.mini-chart{height:52px;border-radius:8px;background:linear-gradient(180deg,rgba(56,217,200,.3),transparent),linear-gradient(90deg,#38d9c8 0 15%,transparent 15% 30%,#47b2e4 30% 45%,transparent 45% 60%,#38d9c8 60% 75%,transparent 75%)}
+.method-step,.research-card,.director-card,.limitation-box,.signal-list{background:#fff;border:1px solid #e3eaf3;padding:1rem;border-radius:12px}
+@media (max-width: 991px){.source-pill{display:none}}
